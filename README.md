@@ -23,3 +23,20 @@ WorkFlow
     Set Toyota stock as example, analyze the trends with bollinger bands, MACD, relative strenght index, stochastic oscillator. Aso built entyr and exit signal algorthim. 
     
     
+4. Hyperparameters tuned
+    Constructed lightbgm model related parameters for tuning. Applied baysian optimiztion to tune hyperparameters and evaluted with RMSE score. 
+             
+            'num_leaves': 187,
+            'learning_rate': 0.073,
+            'max_depth': 12,
+            'min_data_in_leaf': 167,
+            'min_sum_hessian_in_leaf': 0.003,
+            'bagging_fraction': 0.855,
+            'feature_fraction': 0.837,
+            'drop_rate': 0.261,
+            'random_state': 42    
+    
+5. Modeling and prediction
+    Developed a lightbgm decision tree model and implemented the selected parameters. Fitted the model with featurs, and label datasets. Made the prediction. Rankded the predicted returns. Calcualted the sharpe ration and ploted the feature importance.
+    
+  
