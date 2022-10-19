@@ -53,4 +53,4 @@ notebook | data process, feature engineering, baysian optimiztaion, prediction |
             'random_state': 42      
             
  6. Valid Sharpe: 0.017550976374450456, RMSE: 0.022199137224236744, MAE: 0.015119354307299914
- 7. feature importance top 5: 90 days reuturns, 26 days returns, 12 days return, 50 days returns, 50 days volatility 
+ 8. feature importance top 5: 90 days reuturns, 26 days returns, 12 days return, 50 days returns, 50 days volatility 
