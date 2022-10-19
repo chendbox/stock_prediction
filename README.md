@@ -1,9 +1,9 @@
-# stock_prediction
+# Stock_prediction
 
-Problem Statement
+## Problem Statement
 Stock market becomes more complext nowdays. While most of finance decision was made manually by professionals, technology was ushered in new opportunities for retail investors. Data Scientist make predictions based on machine learning models. In this project, I built a strategy to analyze the jpx stock data with stock indicator algorthims, and used LightGBM model to evaluate stock returns.
 
-Contents
+## Contents
 
 |files |description|
 |datasets| train.csv, stock_list.csv|
@@ -12,7 +12,7 @@ notebook | data process, feature engineering, baysian optimiztaion, prediction |
 |model |LightGBM |
 |Feature |adjusted close price, prediciton, ran, feature_importance |
 
-WorkFlow
+## WorkFlow
 
 1. Data collection
     used kaggle API, stock key words to download jpx related stock files. Unzipped the data and use train.csv, stock_list.csv for analysis.
@@ -33,7 +33,7 @@ WorkFlow
     
     
     
- Results
+ ## Results
  1. merged data columns: 'RowId', 'Date', 'SecuritiesCode', 'Open', 'High', 'Low', 'Close', 'Volume', 'AdjustmentFactor', 'ExpectedDividend' 'SupervisionFlag', 'Target', 'Name', 'SectorName' wiht a shape (
  2. All stocks : plot stock returns, close prices, volume. plot eturns in different years. plot all stock close price trends. 
  3. Toyota stock: plot SMA20, bollinger bands, macd, rsi, stochastic oscillator, buy and sell signal. 
@@ -53,4 +53,4 @@ WorkFlow
             'random_state': 42      
             
  6. Valid Sharpe: 0.017550976374450456, RMSE: 0.022199137224236744, MAE: 0.015119354307299914
- 7. feature importance 
+ 7. feature importance top 5: 90 days reuturns, 26 days returns, 12 days return, 50 days returns, 50 days volatility 
