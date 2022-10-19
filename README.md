@@ -54,3 +54,8 @@ notebook | data process, feature engineering, baysian optimiztaion, prediction |
             
  6. Valid Sharpe: 0.017550976374450456, RMSE: 0.022199137224236744, MAE: 0.015119354307299914
  8. feature importance top 5: 90 days reuturns, 26 days returns, 12 days return, 50 days returns, 50 days volatility 
+ 
+ <img
+    src = '/Users/DanDan/Documents/七月在线/MachineLearning/newproject/data/buy.png'
+    title = 'buy & sell signal'
+    style='display: inline-block; margin:0 auto; max-width: 300px'>
